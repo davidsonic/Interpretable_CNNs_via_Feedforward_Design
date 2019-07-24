@@ -44,10 +44,10 @@ def main():
     fw.close()
 
     # load data
-    fr=open('pca_params.pkl','rb')  
-    data1=pickle.load(fr)
-    print(data1)
-    fr.close()
+    # fr=open('pca_params.pkl','rb')
+    # data1=pickle.load(fr)
+    # print(data1)
+    # fr.close()
 
 if __name__ == '__main__':
 	main()
